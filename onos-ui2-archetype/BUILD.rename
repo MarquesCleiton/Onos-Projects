@@ -1,0 +1,11 @@
+BUNDLES = [
+    "//apps/onos-ui2-archetype/app:onos-apps-onos-ui2-archetype-app",
+]
+
+onos_app(
+    category = "Graphical User Interface",
+    description = "ONOS OSGi GUI2 Custom-View app onos-ui2-archetype.",
+    included_bundles = BUNDLES,
+    title = "onos-ui2-archetype Application",
+    url = "http://onosproject.org",
+)
